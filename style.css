@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Sen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Sen', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+/* nav bar styles */
+
+.banner-container{
+    background: rgba(255, 144, 14, 0.1) ;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items ul{
+    display: flex;
+    justify-content: space-between; 
+    /* why justify-content doesnot work; */
+    gap: 48px;
+    list-style: none;
+}
+.nav-items ul li{
+    text-decoration: none;
+}
+
+/* banner -section */
+
+.title{
+    text-align: center;
+    margin : 100px 400px 0px 400px;
+}
+.title h2{
+    font-weight: 700;
+}
+.title p{
+    margin-top: 5px;
+}
+.banner-btn{
+    margin-top: 32px;
+    padding: 21px 24px;
+    border: none;
+    color: white;
+    background: #FF900E;
+}
+.banner-pic img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+    margin-top: 50px;
+}
+
+/* feature-pic-des */
+
+.feature-pic-des{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 45px 230px 130px 308px;
+    gap: 73px;
+}
+
+.feature-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.feature-pic img{
+    width: 186px;
+}
+.feature-des p{
+
+}
+
+/* feature love and enjoy */
+
+.feature-love-enjoy{
+    display: flex;
+    margin: 0px 150px;
+    gap: 50px;
+}
+
+.feature-love-enjoy-des{
+    padding-top: 30px;
+}
+.main-des h2{
+    border-left:5px solid #FF900E;
+    padding-left: 10px;
+}
+.main-des> p{
+    margin: 20px 0;
+}
+.feature-love-enjoy-des .sub-des{
+    padding-left: 20px;
+}
+.sub-des{
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+}
+.sub-des h4,p{
+    margin-top: 10px;
+}
+.feature-love-enjoy-pic img{
+    z-index: -1;
+}
+.feature-love-enjoy-pic .love-enjoy-btn{
+    margin-top: -30px;
+}
+.love-enjoy-btn-conatiner{
+    margin-top: -50px;
+    margin-left: -50px;
+} 
+
+/* fact-container style */
+
+.fact-conatiner{
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+/* achives container style */
+
+.achives{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+    margin-top: 100px;
+}
+.award{
+    border: 1px solid #FF900E;
+    padding: 45px 35px 60px 35px;
+}
+.award img{
+    margin-bottom: 10px;
+}
+
+.Sponspors{
+    text-align: center;
+    margin-top: 100px;
+}
+.companies{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    margin-top: 100px;
+}
+.copywrite{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.copywrite-des{
+    text-align: center;
+    background: #FF900E;
+    color: white;
+    width: 50%;
+    padding: 30px;
+
+}
