@@ -156,6 +156,10 @@
     border: 1px solid #FF900E;
     padding: 45px 35px 60px 35px;
 }
+.award:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+  
 .award img{
     margin-bottom: 10px;
 }
