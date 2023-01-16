@@ -13,6 +13,13 @@
     display: flex;
     justify-content: center;
 }
+.primary-btn{
+    margin-top: 32px;
+    padding: 21px 24px;
+    border: none;
+    color: white;
+    background: #FF900E;
+}
 
 /* nav bar styles */
 
@@ -23,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 .nav-items ul{
@@ -40,7 +48,7 @@
 
 .title{
     text-align: center;
-    margin : 100px 400px 0px 400px;
+    margin : 90px 400px 0px 400px;
 }
 .title h2{
     font-weight: 700;
@@ -175,4 +183,11 @@
     width: 50%;
     padding: 30px;
 
+}
+
+.love-enjoy-btn{
+    padding: 21px 24px;
+    border: none;
+    color: white;
+    background: #FF900E;
 }
